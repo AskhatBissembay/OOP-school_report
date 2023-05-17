@@ -20,9 +20,18 @@ The __all__ variable, when defined in __init__.py, specifies which modules shoul
 --The __main__.py file is the entry point of a Python package or module. When executing the package or module directly, this file will be executed. In this file that will be executed when running the package or module as a standalone program.
 
 # organizations.py:
-- This file contains the School class, which is responsible for creating a basic description and generating a report about schools. It include methods such as add_student(),add_teacher() and get_report().
+- This file contains the School class, which is responsible for creating a basic description and generating a report about schools. It include methods such as add_student(),add_teacher() and get_report() and input limit number of students and teachers .
 
 # users.py:
 - This file defines the parent class Human and its child classes Student and Teacher.
 The Human class represents common attributes and behaviors shared by both students and teachers.
 The Teacher and Student class contains additional attributes and methods specific to teachers and student such as add_subject(),get_info() and set_school().
+
+-- add_student()
+Description: This function allows the user to add a new student to the school database. It prompts the user to input the student's information, such as name, age, and subjects. The function validates the input and stores the student's details in the database for future report generation.
+
+-- add_teacher()
+Description: This function enables the user to add a new teacher to the school database. It prompts the user to provide the teacher's details, including name, specialization, and subjects taught. The function validates the input and stores the teacher's information in the database for use in generating reports.
+
+-- get_report()
+Description: This function generates a comprehensive report for the school based on the stored student and teacher data. It retrieves relevant information from the database. The function then formats and presents this information in an organized and readable manner, providing a complete report that can be exported or printed.
