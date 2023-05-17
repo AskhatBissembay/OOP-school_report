@@ -27,11 +27,11 @@ The __all__ variable, when defined in __init__.py, specifies which modules shoul
 The Human class represents common attributes and behaviors shared by both students and teachers.
 The Teacher and Student class contains additional attributes and methods specific to teachers and student such as add_subject(),get_info() and set_school().
 
--- add_student()
+- add_student()
 Description: This function allows the user to add a new student to the school database. It prompts the user to input the student's information, such as name, age, and subjects. The function validates the input and stores the student's details in the database for future report generation.
 
--- add_teacher()
+- add_teacher()
 Description: This function enables the user to add a new teacher to the school database. It prompts the user to provide the teacher's details, including name, specialization, and subjects taught. The function validates the input and stores the teacher's information in the database for use in generating reports.
 
--- get_report()
+- get_report()
 Description: This function generates a comprehensive report for the school based on the stored student and teacher data. It retrieves relevant information from the database. The function then formats and presents this information in an organized and readable manner, providing a complete report that can be exported or printed.
