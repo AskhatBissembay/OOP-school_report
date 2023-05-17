@@ -1,0 +1,10 @@
+name,address,phone,email,num_stud,num_teachers
+NIS,"Atyrau, Kazakhstan",8888888,the2ndschool@gmail.com,100,100
+name,family,age,gender,nationality,subject,school,Role
+Ramos,Sergio,25,male,Spain,"['PE', 'Videoclub']",NIS,Student
+Pepe,-,28,male,Portugal,"['PE', 'Videoclub']",NIS,Student
+Xabi,Alonso,30,male,Spain,"['Chemistry', 'Biology']",NIS,Student
+Sami,Khedira,24,male,Germany,"['Chemistry', 'Biology']",NIS,Student
+Gonzalo,Higauin,24,male,Argentina,"['Physics', 'Literature']",NIS,Student
+Winston,Churchill,75,male,England,"['English', 'Geography']",NIS,Teacher
+Margaret,Thatcher,85,female,Ireland,"['Chemistry', 'IT']",NIS,Teacher

@@ -1,0 +1,10 @@
+name,address,phone,email,num_stud,num_teachers
+KTL,"Oral, Kazakhstan",999999,thebestschool@gmail.com,10,10
+name,family,age,gender,nationality,subject,school,Role
+John,Wick,35,male,USA,"['History', 'Physics', 'Math']",KTL,Student
+Iker,Casillas,30,male,Spain,"['Family principle', 'Driving']",KTL,Student
+Karim,Benzema,24,male,France,"['PE', 'Videoclub']",KTL,Student
+Alvaro,Arbeloa,28,male,Spain,"['PE', 'Videoclub']",KTL,Student
+Vieira,Marcelo,23,male,Brazil,['PE'],KTL,Student
+Ivan,Grozny,66,male,Russia,"['Russian', 'Literature']",KTL,Teacher
+Joseph,Stalin,96,male,Russia,"['Math', 'IT']",KTL,Teacher
